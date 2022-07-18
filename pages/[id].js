@@ -53,7 +53,7 @@ function PostPage({ trendingResults, followResults, providers }) {
   return (
     <div className=''>
     <Head>
-      <title>{post?.username} posted "{post?.text}"</title>
+      <title>{post?.username} posted {post?.text}</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
