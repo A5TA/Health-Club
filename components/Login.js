@@ -2,8 +2,9 @@ import {signIn} from 'next-auth/react'
 import Image from "next/image"
 function Login({providers}) {
   return (
-    <div className='flex flex-col items-center gap-y-10 pt-40'>
+    <div className='flex flex-col items-center gap-y-5 pt-30'>
         <Image src="/logo-login.png" width={500} height={500} objectfit='contain' quality={100}/>
+        <h1 className='text-3xl text-[#DFF6FF]'>Health Club</h1>
         <div>
             {Object.values(providers).map(provider => (
                 <div key={provider.name}>
