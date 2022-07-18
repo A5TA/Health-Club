@@ -34,7 +34,7 @@ function Widgets({ trendingResults, followResults }) {
             key={index}
           >
             <Image
-              src={result.userImg}
+              src={result?.userImg}
               width={50}
               height={50}
               objectFit="cover"
@@ -42,9 +42,9 @@ function Widgets({ trendingResults, followResults }) {
             />
             <div className="ml-4 leading-5 group">
               <h4 className="font-bold group-hover:underline">
-                {result.username}
+                {result?.username}
               </h4>
-              <h5 className="text-gray-500 text-[15px]">{result.tag}</h5>
+              <h5 className="text-gray-500 text-[15px]">{result?.tag}</h5>
             </div>
             <button className="ml-auto bg-[#DFF6FF] text-black rounded-full font-bold text-sm py-1.5 px-3.5">
               Follow

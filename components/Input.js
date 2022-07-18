@@ -1,4 +1,4 @@
-import {useRef, useState, useEffect} from 'react'
+import {useRef, useState} from 'react'
 import {MdInsertPhoto, MdSchedule} from 'react-icons/md'
 import {IoMdRemove} from 'react-icons/io'
 import {BiHappyBeaming, BiPoll} from 'react-icons/bi'
